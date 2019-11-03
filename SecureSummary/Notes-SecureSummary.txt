@@ -1,0 +1,41 @@
+The application will communicate to emergency responders:
+
+        LTE, Bluetooth, NFC status with security information real-time or simulated for demonstration.
+        Connected device inventory/history, to inform the user of recurring and new, never before connected devices to the UE.
+        Ciphering indicator to inform users of their over-the-air cellular connection encryption status.
+
+
+    Application will communicate security status and information for:
+
+            LTE: User data confidentiality and integrity
+
+            Bluetooth: Current and recent connected devices
+
+            NFC: Current and recent data transmissions
+
+            Local hardware encryption: On or Off
+            
+	    VPN:
+                Current and recent VPN connections
+                Security Data for current connection (TLS 1.2)
+            
+	    Wi-Fi connection
+                Current and recent Wi-Fi connections
+                Security Data for current connection (WPA2)
+            GPS: Status
+
+            Antivirus application status: On or Off
+
+            MDM Status: Operating status
+
+Application’s ability to toggle between the different security and connection settings within the dashboard
+
+
+Does the application dashboard respond to changing variables within the provided scenarios in a timely manner?
+
+    LTE security status changes
+    VPN status changes
+    Bluetooth changes
+    Time and location warnings/information
+
+
